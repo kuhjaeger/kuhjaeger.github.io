@@ -65,8 +65,8 @@
 				text-align: center;
 			}
 			div.float_left {
-				width: 600px;
-				margin-bottom: 50px;
+				width: 400px;
+				margin: 0 auto;
 			}
 		</style>
   </head>
@@ -98,8 +98,7 @@
       <section id="main_content">
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to jQuery.fcs Demonstration Pages.</h3>
-      </section>
-      
+
       <div class="fcs1 float_left">
 			<input name="i1" class="fcs" type="text" value=""><br>
 			<input name="i2" class="fcs" type="text" value=""><br>
@@ -151,13 +150,16 @@
 				<input name="i62" class="fcs2" type="button" value="submit" onclick="alert('submit');">
 			</div>
 		</div>
+        </section>
+      
 
-		<script>
-			(function ($) {
-				$(document).fcs(".fcs");
-				$(document).fcs(".fcs2");
-			})(jQuery);
-		</script>
+
+	<script>
+		(function ($) {
+			$(document).fcs(".fcs");
+			$(document).fcs(".fcs2");
+		})(jQuery);
+	</script>
 		
   </body>
 </html>
